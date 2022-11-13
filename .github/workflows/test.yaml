@@ -43,4 +43,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: amansunny08/target:v1
+        tags: amansunny08/target:v2

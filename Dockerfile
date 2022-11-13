@@ -4,3 +4,4 @@ RUN mkdir /tmp/xyz
 #COPY ./target/hello-world-0.0.1-SNAPSHOT.war /tmp/abc
 #ADD  ./target/hello-world-0.0.1-SNAPSHOT.war /tmp/xyz
 COPY ./demo.txt /tmp/
+COPY  ./demo.txt /tmp/abc 
